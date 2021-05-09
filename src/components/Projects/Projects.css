@@ -1,0 +1,253 @@
+
+/* .grids {
+  max-width: 80%; 
+  margin: auto; 
+} */
+
+h2.projects-header-h2 {
+  color:  rgb(123, 187, 199); 
+  margin-bottom: 60px;
+  left: 90px;
+}
+
+.box {
+  display: block;
+  padding: 10px; 
+  height: 380px; 
+  width: 960px;
+  margin-bottom: 100px;
+  background: #30384ea1;
+}
+
+
+.project-card {
+  position: relative; 
+  width: 520px;
+  float: left;
+  margin-left: 15px;
+}
+
+
+
+.project-card-right {
+  float: right; 
+  width: 520px; 
+  position: relative; 
+  margin-right: 15px;
+}
+
+
+img.project-image {
+  display: flex;
+  width: 520px; 
+  height: 350px;
+  margin-bottom: 120px; 
+}
+
+img.project-image {
+  object-fit: cover;
+  opacity: 0.4;
+}
+
+img.project-image:hover {
+  object-fit: cover;
+  opacity: 0.9;
+}
+
+
+.project-details {
+  width: 360px;
+  float: right;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+  margin-right: 15px;
+}
+
+.project-details-left {
+  width: 360px;
+  float: left;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+}
+
+
+
+h3.project-title {
+  width: 360px;
+  text-align: right;
+  color: rgb(222, 223, 233);
+  font-size: 17pt;
+  margin-top: 40px;
+}
+
+h3.project-title-left {
+  width: 360px;
+  text-align: left;
+  color: rgb(222, 223, 233);
+  font-size: 17pt;
+  margin-top: 40px;
+}
+
+h3.project-title-planet {
+  width: 360px;
+  text-align: left;
+  color: rgb(222, 223, 233);
+  font-size: 17pt;
+  margin-top: 10px;
+}
+
+.description-container {
+  background:rgba(176, 182, 230, 0.190); 
+  width: 350px;
+  height: 130px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.description-container-left {
+  background:rgba(176, 182, 230, 0.190); 
+  width: 350px;
+  height: 120px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.description-container-planet {
+  background:rgba(176, 182, 230, 0.190); 
+  width: 360px;
+  height: 150px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+p.project-description {
+  color: #efefef; 
+  font-size: 10pt;
+  padding: 30px;
+  letter-spacing: 1.5pt;
+  text-align: right;
+  font-family: sans-serif;
+  font-weight: 100; 
+}
+
+p.project-description-left {
+  color: #efefef; 
+  font-size: 10pt;
+  padding: 30px;
+  letter-spacing: 1.5pt;
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: 100; 
+}
+
+p.project-description-planet {
+  color: #efefef; 
+  font-size: 10pt;
+  padding: 25px;
+  letter-spacing: 1.2pt;
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: 100; 
+}
+
+p.project-tech {
+  color: #efefef; 
+  font-size: 9pt;
+  margin-top: 20px;
+  word-spacing: 13pt;
+  text-align: right;
+  font-weight: 100; 
+  text-decoration: none;
+}
+
+p.project-tech-left {
+  color: #efefef; 
+  font-size: 9pt;
+  margin-top: 20px;
+  word-spacing: 12pt;
+  text-align: left;
+  font-weight: 100; 
+  text-decoration: none;
+}
+
+.project-links {
+  margin-top: 30px;
+  text-align: right;
+}
+
+.project-links-left {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.project-links a {
+  text-decoration: none;
+}
+
+.project-links-left a {
+  text-decoration: none;
+}
+
+p.project-winner {
+  font-size: 9pt;
+  text-align: center;
+  color:rgb(75, 219, 164);
+  width: 250px;
+  float: right;
+}
+
+
+.ribbon {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+}
+.ribbon::before,
+.ribbon::after {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  display: block;
+  border: 5px solid #2980b9;
+}
+.ribbon span {
+  position: absolute;
+  display: block;
+  width: 225px;
+  padding: 15px 0;
+  background-color: #3498db;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  color: #fff;
+  font: 700 16px/1 'Lato', sans-serif;
+  text-shadow: 0 1px 1px rgba(0,0,0,.2);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+/* top right*/
+.ribbon-top-right {
+  top: -10px;
+  right: -10px;
+}
+.ribbon-top-right::before,
+.ribbon-top-right::after {
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+.ribbon-top-right::before {
+  top: 0;
+  left: 0;
+}
+.ribbon-top-right::after {
+  bottom: 0;
+  right: 0;
+}
+.ribbon-top-right span {
+  left: -25px;
+  top: 30px;
+  transform: rotate(45deg);
+}

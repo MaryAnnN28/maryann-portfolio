@@ -1,0 +1,68 @@
+.about-container {
+  content: ""; 
+  display: table; 
+  clear: both; 
+  width: 100%; 
+  height: 300px; 
+  margin-top: 100px;
+}
+
+.about-container-left {
+  float: left; 
+  width: 50%; 
+  padding: 10px; 
+  height: 300px;
+  justify-content: center;
+}
+
+.about-container-right {
+  float: right; 
+  width: 50%; 
+  padding: 10px; 
+  height: 300px;
+  justify-content: center;
+  align-content: center;
+}
+
+.about-content {
+  padding-left: 200px; 
+  width: 650px; 
+}
+
+h1.about-header {
+  color:  rgb(123, 187, 199); 
+}
+
+p.about-text {
+  color: rgb(206, 210, 216); 
+  padding-top: 30px; 
+  letter-spacing: 1px;
+  line-height: 1.8em;
+  font-size: 11pt; 
+  font-weight: lighter; 
+  width: 550px; 
+}
+
+img.pic {
+  margin-left: 130px; 
+  margin-top: 50px;
+  margin-bottom: 30px;
+  /* border-radius: 50%; */
+}
+
+.skills {
+  width: 75%; 
+}
+
+.label-skill {
+  color: white;
+  padding: 6px;
+  background-color: #202e40be;
+  height: 8px;
+  margin-top: 40px;
+  margin-left: 15px; 
+  font-size: 8.7pt;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
