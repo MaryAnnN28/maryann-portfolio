@@ -309,7 +309,7 @@ section {
     padding: 2em 2em 2em 4em;
   }
   .social-header {
-    padding: 1.5em 11em 2em 4em;
+    padding: 1.5em 8em 2em 4em;
   }
   section {
     padding: 4em;
@@ -326,11 +326,12 @@ section {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    width: 10em;
+    width: 8em;
     float: right;
   }
   .social-header ul img {
-    width: 33px;
+    width: 30px;
+    color: #fff;
   }
   .hero {
     display: -ms-grid;
@@ -407,5 +408,11 @@ section {
   section {
     padding: 10em;
   }
+}
+
+.contact h2 {
+  color: #068ba8;
+  text-transform: uppercase;
+  letter-spacing: .4em;
 }
 /*# sourceMappingURL=main.css.map */

@@ -319,7 +319,7 @@ section {
   }
 
   .social-header {
-    padding: 1.5em 11em 2em 4em; 
+    padding: 1.5em 8em 2em 4em; 
   }
 
   section {
@@ -334,11 +334,12 @@ section {
     ul {
       display: flex; 
       justify-content: space-between;
-      width: 10em; 
+      width: 8em; 
       float: right; 
       
       img {
-        width: 33px; 
+        width: 30px; 
+        color: #fff; 
       }
     }
   }
@@ -405,6 +406,8 @@ section {
 
 
 
+
+
 // SCREEN SIZE OF 1250PX 
 
 @media only screen and (min-width: 1250px) {
@@ -438,6 +441,14 @@ section {
     padding: 10em
   }
 
+}
+
+.contact {
+   h2 {
+    color: #068ba8; 
+    text-transform: uppercase;
+    letter-spacing: .4em; 
+  }
 }
 
 // .triangle {
