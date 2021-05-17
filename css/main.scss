@@ -1,0 +1,455 @@
+// MOBILE FIRST STYLING 
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body {
+  height: 100vh; 
+  margin: 0; 
+  font-family: 'Poppins', arial;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; 
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%; 
+  border-radius: 1em;
+}
+
+img.right-headshot {
+  width: 70%; 
+  border-radius: 1em;
+}
+
+.nav-container {
+  background: #101010;
+
+  a {
+    color: #efefef;
+  }
+}
+
+header {
+  display: flex; 
+  justify-content: space-between;
+  padding: 1em; 
+
+  .logo {
+    width: 90px; 
+  }
+
+  ul {
+    display: flex; 
+
+    a {
+      display: block; 
+      padding: 0 .5em; 
+      font-size: 1em;
+    }
+  }
+
+}
+
+.social-header, .hero-design {
+  display: none; 
+}
+
+.hero {
+  background: #101010;
+  color: #F6F6F6;
+  display: grid; 
+  text-align: center;
+  padding: 4em; 
+
+  h1 {
+    letter-spacing: .4em;
+    text-transform: uppercase;
+  }
+
+  .plus {
+    color: #068ba8;
+    font-weight: 400;
+    font-size: .9em;
+  }
+
+  h3 {
+    color: #cd4251;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+}
+
+
+.meet {
+  display: flex; 
+  margin: 0 auto; 
+  width: 200px; 
+  font-weight: 500;
+  font-size: 1.2em;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+
+  color: #068ba8;
+
+  span {
+    margin-top: 1em; 
+    margin-right: .5em; 
+  }
+}
+
+.scroll {
+  width: 40px; 
+  margin-top: 2em; 
+}
+
+section {
+  padding: 4em 2em; 
+  text-align: center; 
+}
+
+
+.about-me {
+  color: #2B2C2E;
+  margin-bottom: 3em;
+  font-size: .9em;
+  line-height: 1.8em;
+  font-weight: 400;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #F8485B;
+  letter-spacing: .2em;
+  font-size: .85em;
+}
+
+.featured {
+  background: #101010;
+}
+
+.featured-title {
+  color: #75A3B4;
+  font-weight: 600; 
+  font-size: 1.5em; 
+  margin-top: -.4em;
+  display: block; 
+}
+
+.featured-desc {
+  color: #F6F6F6;
+  margin-bottom: 3em;
+  font-size: .8em;
+  line-height: 1.8em;
+  font-weight: 500;
+}
+
+.featured-tech {
+  color: #c3c3c5;
+  margin-bottom: 2em;
+  font-size: .7em;
+  font-weight: 500;
+  word-spacing: 1em;
+  text-transform: uppercase;
+}
+
+.featured-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #75a3B4; 
+  font-size: .8em; 
+  font-weight: 500;
+  margin-bottom: 3em;
+  line-height: 1em;
+  padding-right: 1em;
+}
+
+.featured img {
+  border-radius: 1em;
+  margin-top: 1em; 
+}
+
+.skills {
+  // background: #cd4251;
+  background: #068ba8;;
+}
+
+.skills-container ul li {
+  background: #efefef; 
+  padding: 2em; 
+  border-radius: 1em; 
+  margin-bottom: 1em; 
+
+  .icon-container {
+    height: 100px; 
+    display: grid; 
+    place-content: center; 
+    margin: 0 auto; 
+
+    &.one {
+      width: 80px; 
+    }
+    &.two {
+      width: 80px; 
+    }
+    &.three {
+      width: 80px;
+    }
+  }
+
+  .skill-title {
+    font-weight: bold;
+  }
+
+  .featured-desc {
+    margin-bottom: 2em;
+    color: #2B2C2E;
+  }
+}
+
+.portfolio {
+  background: #101010;
+}
+
+.portfolio-container a img {
+  border-radius: 1em;
+  margin-bottom: 2em;
+  margin-top: 1em; 
+}
+
+.portfolio-container p.featured-desc {
+  color: #CFD1D5;
+}
+
+.portfolio-container p.featured-tech {
+  color: #CFD1D5;
+}
+
+
+// SCREEN SIZE 800PX - Tablet Size 
+
+@media only screen and (min-width: 800px) {
+  
+  .featured, .portfolio, .about {
+    text-align: left;
+  }
+  .featured, .portfolio-container, .about {
+    display: grid; 
+    grid-template-columns: 40% auto;  
+  }
+
+  .about {
+    display: grid; 
+    grid-template-columns: 58% auto; 
+    margin-right: 2em;
+  }
+
+  .about img {
+    margin-left: 5em; 
+  }
+
+  .left, .portfolio-left {
+    display: grid; 
+    place-content: center;
+  }
+
+  .right {
+    margin-left: 2em; 
+    margin-top: 1em; 
+  }
+
+  .right-headshot {
+    margin-left: 3em; 
+    margin-top: 3.5em; 
+  }
+
+  .skills {
+    margin-top: -5em; 
+    margin-bottom: -7em; 
+    padding-top: 7em; 
+  }
+
+  .skills-container ul {
+    display: grid; 
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 1em;
+  }
+
+  .portfolio {
+    padding-top: 7em; 
+  }
+
+  .portfolio-container img {
+    margin-left: 2em; 
+
+  }
+}
+
+
+// SCREEN SIZE OF 1050PX 
+// When hero design starts to show up 
+
+@media only screen and (min-width: 1050px) {
+  .hero {
+    height: 90vh; 
+  }
+
+  .nav-container {
+    display: grid; 
+    grid-template-columns: 60% auto;
+    background: unset; 
+    margin-top: 0;
+
+
+    header {
+      background: #101010;
+    }
+  }
+
+  header {
+    padding: 2em 2em 2em 4em; 
+  }
+
+  .social-header {
+    padding: 1.5em 11em 2em 4em; 
+  }
+
+  section {
+    padding: 4em; 
+  }
+
+  .social-header {
+    display: block; 
+    background: #101010;
+    opacity: 85%;
+
+    ul {
+      display: flex; 
+      justify-content: space-between;
+      width: 10em; 
+      float: right; 
+      
+      img {
+        width: 33px; 
+      }
+    }
+  }
+
+  .hero {
+    display: grid; 
+    grid-template-columns: 60% auto;
+    background: unset; 
+    padding: 0;
+
+    .content {
+      background: #101010;
+      padding: 6em 8em 6em 4em;
+      text-align: left; 
+
+      h1 {
+        font-size: 2.6em; 
+        line-height: 1.2em; 
+        letter-spacing: .3em; 
+        text-transform: uppercase;
+      }
+
+      h3 {
+        font-size: 1.6em; 
+        margin-top: -.5em; 
+        line-height: 1.2em; 
+        letter-spacing: .3em; 
+        color: #cd4251;
+        text-transform: uppercase;
+        font-weight: 400;
+      }
+
+  
+    }
+  }
+
+  .meet {
+    margin: unset; 
+    font-size: 2em;
+    width: 400px; 
+    font-weight: 500;
+  }
+
+  .hero-design {
+    display: unset; 
+    background: #101010; 
+    margin-left: 0%; 
+    margin-top: -30%;
+    width: 100%;
+  }
+
+  img.hero {
+    width: 100%; 
+    height: 100%;
+    border-radius: 0; 
+  }
+
+  .portfolio img {
+    float: right; 
+    max-width: 500px;
+  }
+
+}
+
+
+
+// SCREEN SIZE OF 1250PX 
+
+@media only screen and (min-width: 1250px) {
+  header {
+    padding: 2em 2em 2em 6em;
+  }
+
+  .hero {
+    .content {
+      padding: 6em 4em 2em 6em;
+
+      h1 {
+        font-size: 3em;
+      }
+    }
+  }
+
+  .hero-design {
+    display: unset; 
+    background: #101010; 
+    margin-left: 0%; 
+    margin-top: -30%;
+    width: 100%;
+  }
+
+  .social-header {
+    padding: 2em 10em 2em 0; 
+  }
+
+  section {
+    padding: 10em
+  }
+
+}
+
+// .triangle {
+//   animation: triangleAnim 3s infinite alternate-reverse; 
+// }
+
+// @keyframes triangleAnim {
+//   from {
+//     transform: translate(262px, 798px); 
+//     z-index: 5; 
+//   }
+//   to {
+//     transform: translate(262px, 798px); 
+//   }
+// }
