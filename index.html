@@ -2,7 +2,7 @@
     <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link rel="icon" href="./images/mn_bright.png" />
+        <link rel="icon" href="./images/mn1.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" href="css/main.css">     
@@ -11,7 +11,7 @@
     </head>
     <body>
          <!-- Navigation Bar  -->
-        <div class="nav-container">
+        <div class="nav-container" id="topNav">
             <header>
                 <a href="index.html" class="logo"><img class="logo" src="./images/MN1.png" alt="logo"></a>
                 <nav>
@@ -63,9 +63,7 @@
              -->
             
         </div>
-        
-
-
+    
 
         <section class="about">
             <div class="left" id="about">
@@ -81,7 +79,7 @@
 
         <section id="projects" class="featured">
             <div class="left">
-                <div class="inner transition2">
+                <div class="inner transition3">
                     <p class="subtitle">Featured Project</p>
                     <a href="#projects" class="featured-title">NavCRM</a>
 
@@ -91,33 +89,33 @@
                     <a href="https://github.com/MaryAnnN28/NavCRM-Frontend" target="_blank" class="featured-link">Github</a>
                 </div>
             </div>
-            <img class="right transition2" src="images/navcrm.jpeg" alt="NavCRM">
+            <img class="right transition3" src="images/navcrm.jpeg" alt="NavCRM">
         </section>
 
         <section class="skills">
             <div class="skills-container">
                 <ul>
-                    <li class="transition3">
+                    <li class="transition4">
                         <div class="icon-container one">
                             <img src="images/frontend-icon.png" alt="frontend">
                         </div>
                         <p class="skill-title">Frontend Development</p>
                         <p class="featured-desc skill-desc">JavaScript, React, HTML, CSS, Material UI, Bootstrap</p>
                     </li>
-                    <li class="transition3">
+                    <li class="transition4">
                         <div class="icon-container two">
                             <img src="images/backend-icon.png" alt="backend">
                         </div>
                         <p class="skill-title">Backend Development</p>
                         <p class="featured-desc skill-desc">Ruby, Ruby on Rails, SQL, JWT Auth, Bcrypt</p>
                     </li>
-                    <li class="transition3">
+                    <li class="transition4">
                         <div class="icon-container three">
                             <img src="images/skill-icon.png" alt="skills">
                         </div>
                         <p class="skill-title">Other Skills</p>
                         <p class="featured-desc skill-desc">
-                            Adobe XD, Graphic Design, CRM, CMS, SEO,  <br />
+                            Adobe XD, Graphic Design, CMS, SEO,  <br />
                             Marketing, Sales, Customer Solutions
                         </p>
                     </li>
@@ -126,7 +124,7 @@
         </section>
 
         <section class="portfolio">
-            <div class="portfolio-container transition4">
+            <div class="portfolio-container transition5">
                 <div class="portfolio-left">
                     <div class="inner">
                         <p class="subtitle">Featured Project</p>
@@ -142,7 +140,7 @@
             </div>
 
 
-            <div class="portfolio-container transition4">
+            <div class="portfolio-container transition5">
                 <div class="portfolio-left">
                     <div class="inner">
                         <p class="subtitle">Featured Project</p>
@@ -158,7 +156,7 @@
                 <a href="#"><img src="images/biteboard.jpeg" alt="Bite-Board"/></a>
             </div>
 
-            <div class="portfolio-container transition4">
+            <div class="portfolio-container transition5">
                 <div class="portfolio-left">
                     <div class="inner">
                         <p class="subtitle">Featured Project</p>
@@ -174,7 +172,7 @@
                 <a href="#"><img src="images/golflive.jpeg" alt="Golf-Live"/></a>
             </div>
 
-            <div class="portfolio-container transition4">
+            <div class="portfolio-container transition5">
                 <div class="portfolio-left">
                     <div class="inner">
                         <p class="subtitle">Featured Project</p>
@@ -194,13 +192,41 @@
 
 
         <section class="contact" id="contact">
-            <h2>Connect With Me</h2>
-            <a href="mailto:maryann.navarrete@gmail.com" target="_blank">maryann.navarrete@gmail.com</a>
-          
+            <h2>Let's Connect</h2>
+            <p>Say hello! My inbox is open whether you have a question, new opportunity, or just want to say hello. </p>
+            <a href="mailto:contact@maryannnav.com" target="_blank">contact@maryannnav.com</a> 
+           
+            <div class="footer-social">
 
+            </div>
+            
         </section>
+        
+        <footer>
+
+            <div class="social">
+                <a href="https://www.linkedin.com/in/maryannnavarrete/" target="_blank">
+                    <img src="images/linkedin_icon.png">
+                </a>
+                <a href="https://www.github.com/MaryAnnN28" target="_blank">
+                    <img src="images/github_icon.png">
+                </a>
+                <a href="https://www.twitter.com/MaryAnnN28" target="_blank">
+                    <img src="images/twitter_icon.png">
+                </a>
+            </div>
+            <div class="footer-info">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="https://maryann-navarrete.medium.com/" target="_blank">Blog</a>
+                <a href="#contact">Contact</a>
+                <p>Designed & Built by Mary Ann Navarrete</p>
+            </div>
+
+        </footer>
 
         
+<!-- JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js" integrity="sha512-Q+G390ZU2qKo+e4q+kVcJknwfGjKJOdyu5mVMcR95NqL6XaF4lY4nsSvIVB3NDP54ACsS9rqhE1DVqgpApl//Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
@@ -225,15 +251,15 @@
                 opacity: 0, 
                 y: -50, 
                 stagger: .3, 
-                duration: 3,
+                duration: 2,
                 ease: Power4.easeOut
             }, "-=1.5")
 
             t1.from('.stagger3', {
                 opacity: 0, 
                 y: -50, 
-                stagger: .6, 
-                duration: 3,
+                stagger: .3, 
+                duration: 2,
                 ease: Power4.easeOut
             }, "-=1.5")
 
@@ -245,7 +271,7 @@
                 y: 50, 
                 opacity: 0, 
                 duration: 3, 
-                stagger: .3
+                stagger: .6
             })
             gsap.from(".transition3", {
                 scrollTrigger: {
@@ -254,8 +280,8 @@
                 }, 
                 y: 50, 
                 opacity: 0, 
-                duration: 1.2, 
-                stagger: .6
+                duration: 3, 
+                stagger: .8
             })
             gsap.from(".transition4", {
                 scrollTrigger: {
@@ -264,9 +290,28 @@
                 }, 
                 y: 50, 
                 opacity: 0, 
-                duration: 1.2, 
+                duration: 3, 
                 stagger: .6
             })
+            gsap.from(".transition5", {
+                scrollTrigger: {
+                    trigger: '.transition5', 
+                    start: "top bottom"
+                }, 
+                y: 50, 
+                opacity: 0, 
+                duration: 4, 
+                stagger: .6
+            })
+
+            function navMenu() {
+                var x = document.getElementById("topNav"); 
+                if (x.className === "nav-container") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "nav-container";
+                }
+            }
 
         </script>
 
