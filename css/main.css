@@ -460,14 +460,14 @@ section {
 footer {
   text-align: center;
   background-color: #101010;
-  height: 25vh;
+  height: 23vh;
+  padding-top: 2em;
 }
 
 footer img {
   margin-top: 2em;
   width: 30px;
   padding: .5em;
-  margin-bottom: 1.5em; 
 }
 
 footer p {
@@ -479,7 +479,7 @@ footer p {
 footer a {
   color: #20b5d6;
   font-size: .9em;
-  margin-top: 3.5em;
-  padding: .5em;
+  margin-top: 5em;
+  padding: .4em;
 }
 /*# sourceMappingURL=main.css.map */
