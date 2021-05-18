@@ -460,8 +460,7 @@ section {
 footer {
   text-align: center;
   background-color: #101010;
-  height: 10vh;
-  padding-top: 2em;
+  height: 25vh;
 }
 
 footer img {
@@ -479,7 +478,7 @@ footer p {
 footer a {
   color: #20b5d6;
   font-size: .9em;
-  margin-top: 5em;
-  padding: .4em;
+  margin-top: 3em;
+  padding: .5em;
 }
 /*# sourceMappingURL=main.css.map */
